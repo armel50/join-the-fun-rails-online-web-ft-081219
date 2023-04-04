@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.7.1'
+gem 'rails', '6.1.7.3'
 gem 'coffee-rails'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.4.0'
 gem 'sass-rails'
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'sdoc', '~> 1.0.0', group: :doc
 gem 'uglifier'
 gem 'bootsnap'
 
