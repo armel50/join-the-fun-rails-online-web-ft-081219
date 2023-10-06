@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.0.7.1'
-gem 'coffee-rails'
-gem 'jquery-rails'
+gem 'rails', '7.1.0'
+gem 'coffee-rails', '>= 5.0.0'
+gem 'jquery-rails', '>= 4.4.0'
 gem 'sass-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'uglifier'
@@ -15,7 +15,7 @@ group :development, :test do
   gem "capybara"
   gem "database_cleaner"
   gem "pry-byebug"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 3.9.1"
 end
 
 group :test do
